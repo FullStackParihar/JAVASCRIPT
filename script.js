@@ -1,8 +1,15 @@
+function VowelCheck(y) {
 
-function test() {
-  console.log(foo);
-  var foo = 10;
-  function foo() {}
-  console.log(foo);
+    let count = 0;
+
+    for (const char of y) {
+
+        if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
+            count++;
+        }
+    }
+    console.log(count);
 }
-test();
+
+let y = "abeiuoeee"
+VowelCheck(y);
