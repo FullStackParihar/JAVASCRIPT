@@ -1,9 +1,9 @@
-function userInp(callback) {
-    const name = "vishnu parihar"; 
-    callback(name);
-  }
-  
-  userInp(function (name) {
-    console.log("Hi, " + name);
-  });
-  
+function abc(name,callback = function ()
+{
+  console.log('hello')
+  callback();
+})
+abc("Prajjal",function()
+{
+  console.log('Custom function')
+})
