@@ -12,4 +12,5 @@ function VowelCheck(y) {
 }
 
 let y = "abeiuoeee"
+
 VowelCheck(y);
